@@ -1,6 +1,5 @@
 package com.ynz.event.service;
 
-import com.ynz.event.domainvalue.Source;
 import com.ynz.event.entities.Event;
 import com.ynz.event.exceptions.EntityNotFoundException;
 import com.ynz.event.repository.EventRepository;
@@ -13,8 +12,6 @@ import org.mockito.junit.MockitoJUnitRunner;
 import java.util.Optional;
 import java.util.UUID;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
