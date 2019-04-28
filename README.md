@@ -2,7 +2,7 @@
 
 Event - Queue - classification - Actor
 
-I want to demonstrate a structure
+demonstrate a structure
 
 + Concurrently posting event via an HTTP request
 + A blocking queue to decouple event and its handlers
